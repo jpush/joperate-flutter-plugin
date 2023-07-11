@@ -1,0 +1,39 @@
+PODS:
+  - Flutter (1.0.0)
+  - integration_test (0.0.1):
+    - Flutter
+  - JCore (4.1.0)
+  - JOperate (2.0.0):
+    - JCore (>= 4.1.0)
+  - joperate_flutter_plugin (0.0.1):
+    - Flutter
+    - JOperate
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - integration_test (from `.symlinks/plugins/integration_test/ios`)
+  - joperate_flutter_plugin (from `.symlinks/plugins/joperate_flutter_plugin/ios`)
+
+SPEC REPOS:
+  trunk:
+    - JCore
+    - JOperate
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  integration_test:
+    :path: ".symlinks/plugins/integration_test/ios"
+  joperate_flutter_plugin:
+    :path: ".symlinks/plugins/joperate_flutter_plugin/ios"
+
+SPEC CHECKSUMS:
+  Flutter: f04841e97a9d0b0a8025694d0796dd46242b2854
+  integration_test: 13825b8a9334a850581300559b8839134b124670
+  JCore: ea26a5dde38ebf6e4e85b772d4ecce8e0e95fb55
+  JOperate: f07556ddf5fb85d4c52144ac1f7c6c3e4089a3d4
+  joperate_flutter_plugin: b8e0ba3e3258459c0957f3055126118664f3eba6
+
+PODFILE CHECKSUM: 02caaa843f6501172c0d470d80e72f61175c8b93
+
+COCOAPODS: 1.10.1
